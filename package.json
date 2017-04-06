@@ -1,0 +1,32 @@
+{
+  "name": "uncertain-boolean",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Indeterminate booleans as POJO",
+  "license": "MIT",
+  "repository": "ajoslin/uncertain-boolean",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "indeterminate",
+    "pojo",
+    "boolean",
+    "compare",
+    "create",
+    "construct"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
