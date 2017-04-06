@@ -2,7 +2,7 @@
 
 > Flow control for indeterminate booleans as plain JS objects
 
-Your API returns booleans, but sometimes a value is unknown. You want to have `uncertain` or `null` or `true`, but as plain javascript.
+Use case: Your API returns booleans, but sometimes a value is unknown. You want to have a clea structure for determining unknown values, as plain JS objects.
 
 ## Install
 
