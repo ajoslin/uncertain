@@ -1,7 +1,7 @@
 {
   "name": "uncertain-boolean",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Indeterminate booleans as POJO",
   "license": "MIT",
   "repository": "ajoslin/uncertain-boolean",
