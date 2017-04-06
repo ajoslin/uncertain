@@ -26,4 +26,8 @@ test('is', function (t) {
 
   t.equal(u.cast(null), u())
   t.equal(u.cast(undefined), u())
+
+  t.equal(u.cast(null, true), true)
+  t.equal(u.cast(null, 'false'), false)
+  t.equal(u.cast(null, undefined), 'uncertain')
 })
