@@ -1,7 +1,7 @@
 {
   "name": "uncertain",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Flow control for indeterminate booleans as plain JS objects",
   "license": "MIT",
   "repository": "ajoslin/uncertain",
