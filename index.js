@@ -1,20 +1,20 @@
 'use strict'
 
-module.exports = uncertain
+module.exports = Uncertain
 
-function uncertain () {
+function Uncertain () {
   return 'uncertain'
 }
 
-uncertain.is = function (value) {
+Uncertain.is = function (value) {
   return value === 'uncertain'
 }
 
-uncertain.cast = function (/* ...values */) {
+Uncertain.from = function (/* ...values */) {
   for (var i = 0; i < arguments.length; i++) {
     if (arguments[i] != null) { //eslint-disable-line
       return arguments[i] === 'false' ? false : Boolean(arguments[i])
     }
   }
-  return uncertain()
+  return Uncertain()
 }

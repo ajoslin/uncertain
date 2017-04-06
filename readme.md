@@ -20,15 +20,15 @@ Uncertain.is(value) // => true
 Uncertain.is(true) // => false
 Uncertain.is(false) // => false
 
-Uncertain.cast(null) // => 'uncertain'
-Uncertain.cast(undefined) // => 'uncertain'
-Uncertain.cast(true) // => true
-Uncertain.cast('true') // => true
-Uncertain.cast('false') // => true
-Uncertain.cast(0) // => false
+Uncertain.from(null) // => 'uncertain'
+Uncertain.from(undefined) // => 'uncertain'
+Uncertain.from(true) // => true
+Uncertain.from('true') // => true
+Uncertain.from('false') // => true
+Uncertain.from(0) // => false
 
-Uncertain.cast(undefined, undefined) // => 'uncertain'
-Uncertain.cast(undefined, 1) // => true
+Uncertain.from(undefined, undefined) // => 'uncertain'
+Uncertain.from(undefined, 1) // => true
 ```
 
 ## License
