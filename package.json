@@ -1,10 +1,10 @@
 {
-  "name": "uncertain-boolean",
+  "name": "uncertain",
   "main": "index.js",
-  "version": "0.0.0",
-  "description": "Indeterminate booleans as POJO",
+  "version": "0.0.1",
+  "description": "Flow control for indeterminate booleans as plain JS objects",
   "license": "MIT",
-  "repository": "ajoslin/uncertain-boolean",
+  "repository": "ajoslin/uncertain",
   "author": {
     "name": "Andrew Joslin",
     "email": "andrewtjoslin@gmail.com",

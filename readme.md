@@ -1,19 +1,19 @@
-# uncertain-boolean [![Build Status](https://travis-ci.org/ajoslin/uncertain-boolean.svg?branch=master)](https://travis-ci.org/ajoslin/uncertain-boolean)
+# uncertain [![Build Status](https://travis-ci.org/ajoslin/uncertain.svg?branch=master)](https://travis-ci.org/ajoslin/uncertain)
 
-> Flow control for indeterminate booleans as POJO
+> Flow control for indeterminate booleans as plain JS objects
 
 Your API returns booleans, but sometimes a value is unknown. You want to have `uncertain` or `null` or `true`, but as plain javascript.
 
 ## Install
 
 ```
-$ npm install --save uncertain-boolean
+$ npm install --save uncertain
 ```
 
 ## Usage
 
 ```js
-var Uncertain = require('uncertain-boolean')
+var Uncertain = require('uncertain')
 
 var value = Uncertain() // => 'uncertain'
 Uncertain.is(value) // => true
