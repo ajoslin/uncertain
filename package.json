@@ -1,10 +1,10 @@
 {
-  "name": "uncertain",
+  "name": "uncertain-bool",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Flow control for indeterminate booleans as plain JS objects",
   "license": "MIT",
-  "repository": "ajoslin/uncertain",
+  "repository": "ajoslin/uncertain-bool",
   "author": {
     "name": "Andrew Joslin",
     "email": "andrewtjoslin@gmail.com",
@@ -24,9 +24,5 @@
   "devDependencies": {
     "tape": "^4.0.0",
     "standard": "^7.0.0"
-  },
-  "files": [
-    "index.js",
-    "test.js"
-  ]
+  }
 }
